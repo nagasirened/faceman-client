@@ -1,0 +1,49 @@
+{
+	"name": "machine-learn",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"serve:test": "vue-cli-service serve --mode test",
+		"serve:pro": "vue-cli-service serve --mode production",
+		"build": "vue-cli-service build --mode development",
+		"build:test": "vue-cli-service build --mode test",
+		"build:pro": "vue-cli-service build --mode production",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"area-data": "^5.0.6",
+		"axios": "^0.19.0",
+		"core-js": "^2.6.5",
+		"echarts": "^4.8.0",
+		"element-china-area-data": "^5.0.0",
+		"element-ui": "^2.9.1",
+		"lodash": "^4.17.15",
+		"moment": "^2.27.0",
+		"nprogress": "^0.2.0",
+		"qs": "^6.8.0",
+		"v-distpicker": "^1.2.7",
+		"vue": "^2.6.10",
+		"vue-area-linkage": "^5.1.0",
+		"vue-router": "^3.0.3",
+		"vuex": "^3.0.1",
+		"vuex-persistedstate": "^2.5.4"
+	},
+	"devDependencies": {
+		"@babel/plugin-syntax-dynamic-import": "^7.8.3",
+		"@vue/cli-plugin-babel": "^3.8.0",
+		"@vue/cli-plugin-eslint": "^3.8.0",
+		"@vue/cli-service": "^3.8.0",
+		"@vue/eslint-config-standard": "^4.0.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.16.0",
+		"eslint-plugin-vue": "^5.0.0",
+		"less": "^3.11.3",
+		"less-loader": "^6.2.0",
+		"stylus": "^0.54.5",
+		"stylus-loader": "^3.0.2",
+		"terser-webpack-plugin": "^3.0.8",
+		"vue-cli-plugin-element": "^1.0.1",
+		"vue-template-compiler": "^2.6.10"
+	}
+}

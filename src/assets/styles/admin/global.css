@@ -1,0 +1,34 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1500px;
+}
+
+.el-header {
+    border-bottom: none !important;
+    background-color: #040526;
+}
+
+.el-aside {
+    background-color: #040526;
+}
+
+.el-menu {
+    border-right: none;
+}
+
+.el-breadcrumb {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.el-table {
+    margin-top: 15px;
+}
+
+.selectorTop {
+    margin-top: 15px;
+}

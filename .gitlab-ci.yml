@@ -1,0 +1,8 @@
+build:
+   stage: build
+   script:
+      - docker build -t ai/webui:$CI_COMMIT_TAG .
+      - docker tag ai/webui:$CI_COMMIT_TAG reg.minglemass.com:5000/webui:$CI_COMMIT_TAG
+      - docker push reg.minglemass.com:5000/webui:$CI_COMMIT_TAG
+   only:
+      - tags
